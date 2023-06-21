@@ -9,7 +9,7 @@ const ProductList = ({ productData }) => {
         <Text style={styles.title}>{productData.title}</Text>
         <Text style={styles.price}>Price: ${productData.price}</Text>
         <Text style={styles.category}>Category: {productData.category}</Text>
-        <Text style={styles.description}>{productData.description}</Text>
+        <Text style={styles.description}>Description: {productData.description}</Text>
         <View style={styles.ratingContainer}>
           <Text style={styles.rating}>Rating: {productData.rating.rate}</Text>
           <Text style={styles.ratingCount}>({productData.rating.count} reviews)</Text>
